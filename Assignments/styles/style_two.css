@@ -1,0 +1,17 @@
+h1 {
+    color: green;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+h3 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p {
+    font-style: italic;
+    color: darkgreen;
+    text-align: justify;
+}

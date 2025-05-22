@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal CSS Assignment</title>
+    <style>
+        h1 {
+            background-color: violet;
+        }
+
+        h2 {
+            background-color: black;
+            color: yellow; /* 🟨 This overrides the white color below */
+        }
+
+        p {
+            width: 200px;
+        }
+
+        /* This rule is overwritten by the one above it */
+        h2 {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>This is a heading level 1</h1>
+    <h2>This is a heading level 2</h2>
+    <p>This is a paragraph. It should have a width of 200 pixels.</p>
+    <h2>Another heading level 2</h2>
+    <p>Another paragraph with the same width.</p>
+
+</body>
+</html>
