@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+  }
+  
+  section {
+    height: 25vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  section:nth-child(odd) {
+    background-color: #3d3d3d;
+    color: white;
+  }
+  
+  section:nth-child(even) {
+    background-color: #fdfde6;
+    color: black;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  hr {
+    width: 33%;
+    border: none;
+    border-bottom: 4px solid darkred;
+    margin-top: 15px;
+  }
+  

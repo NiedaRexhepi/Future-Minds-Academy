@@ -1,0 +1,22 @@
+.chapter {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: Georgia, serif;
+  }
+  
+  .first-word {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .first-letter {
+    font-size: 3em;
+    float: left;
+    line-height: 1;
+    padding-right: 8px;
+    color: darkred;
+    font-family: 'Times New Roman', serif;
+  }
+  
