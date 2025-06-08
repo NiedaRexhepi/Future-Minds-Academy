@@ -3,42 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <title>Position Page</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 40px;
+      background: #fff;
+    }
+
+    .card {
+      position: relative;
+      background: white;
+      margin-bottom: 30px;
+      padding: 20px;
+      width: 500px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+      border-radius: 4px;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: 900;
+      position: relative;
+      top: -10px;
+      margin: 0 0 10px 0;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: red;
+      color: white;
+      font-weight: bold;
+      padding: 4px 10px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-family: sans-serif;
+    }
+
+    .video-box {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      border: 2px solid black;
+      padding: 10px;
+      border-radius: 15px;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    .video-box p {
+      margin: 5px 0 0;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
 
   <div class="card">
     <h2 class="title">Neil Armstrong</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, harum!</p>
-    <button class="close">x</button>
+    <span class="close-btn">x</span>
   </div>
 
   <div class="card">
     <h2 class="title">Buzz Aldrin</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, harum!</p>
-    <button class="close">x</button>
+    <span class="close-btn">x</span>
   </div>
 
   <div class="card">
     <h2 class="title">Neil Armstrong</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, harum!</p>
-    <button class="close">x</button>
+    <span class="close-btn">x</span>
   </div>
 
   <div class="card">
     <h2 class="title">Neil Armstrong</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, harum!</p>
-    <button class="close">x</button>
+    <span class="close-btn">x</span>
   </div>
 
   <div class="card">
     <h2 class="title">Neil Armstrong</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, harum!</p>
-    <button class="close">x</button>
+    <span class="close-btn">x</span>
   </div>
 
   <div class="video-box">
-    <video width="250" controls>
+    <video controls width="300">
       <source src="earth.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
